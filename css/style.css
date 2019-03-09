@@ -1,0 +1,96 @@
+ /* Common */
+ body {
+     background: #fff;
+     font-size: 14px;
+     line-height: 1.5;
+     font-family: 'Fira Sans', 'Tahoma', sans-serif;
+     color: #212121;
+ }
+
+ /* на сл занятие */
+ .line {
+     border: 1px solid green;
+     outline: 1px solid blue;
+     margin: 10px;
+ }
+
+ /* Header */
+ .header {
+     background: #8cc34b;
+     color: #fff;
+ }
+
+ .user-name {
+     font-size: 21px;
+     font-weight: 500;
+ }
+
+ .user-email {
+     opacity: 0.7;
+ }
+
+ .social-block a {
+     color: #fff;
+ }
+
+ /* Main */
+
+ .section-title {
+     text-align: center;
+     font-size: 42px;
+     font-weight: 500;
+ }
+
+ .section-subtitle {
+     text-align: center;
+     color: #727272;
+     font-size: 21px;
+     font-weight: 300;
+ }
+
+ /* About section */
+
+ .about {
+     background: #fff;
+ }
+
+ .about-title {
+     font-size: 21px;
+ }
+
+ .about-info {
+     font-weight: 300;
+     color: #727272;
+ }
+
+ .about-info a {
+     color: #03a9f4;
+ }
+
+ /* Courses */
+
+ .courses {
+     background: #f6f7f2;
+ }
+ .course-name {
+     font-size: 21px;
+ }
+ .course-descr {
+     color: #727272;
+     font-weight: 300;
+ }
+ .course-footer {
+     color: #727272;
+     font-size: 18px;
+ }
+
+
+ /* Footer */
+ .footer {
+     background: #000;
+ }
+ .copyright {
+     text-align: center;
+     opacity: 0.5;
+     color: white;
+ }
