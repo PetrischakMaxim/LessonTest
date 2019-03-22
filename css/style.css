@@ -1,10 +1,21 @@
  /* Common */
+ * {
+     box-sizing: border-box
+ }
+
+
  body {
      background: #fff;
      font-size: 14px;
      line-height: 1.5;
      font-family: 'Fira Sans', 'Tahoma', sans-serif;
      color: #212121;
+ }
+
+ .container {
+     margin: 0 auto;
+     width: 960px;
+     padding: 0 10px;
  }
 
  /* на сл занятие */
@@ -18,6 +29,11 @@
  .header {
      background: #8cc34b;
      color: #fff;
+ }
+ .header-inner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
  }
 
  .user-name {
@@ -47,11 +63,19 @@
      font-size: 21px;
      font-weight: 300;
  }
+ .section-inner {
+     display: flex;
+ }
 
  /* About section */
 
  .about {
      background: #fff;
+ }
+ .about-me {
+     flex: 1 1 50%;
+     width: 475px;
+
  }
 
  .about-title {
@@ -72,6 +96,15 @@
  .courses {
      background: #f6f7f2;
  }
+ .courses-list {
+     display: inline-flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 0;
+ }
+ .course-item {
+     flex: 1 1 30%;
+ }
  .course-name {
      font-size: 21px;
  }
@@ -88,6 +121,8 @@
  /* Footer */
  .footer {
      background: #000;
+     position: sticky;
+     bottom: 0;
  }
  .copyright {
      text-align: center;

@@ -16,155 +16,184 @@
 <body>
     <!-- Header -->
     <header class="header line">
+        <div class="container">
+            <!-- Flex обертка -->
+            <div class="header-inner">
+                <div class="user-block line">
+                    <img src="images/user.jpg" alt="">
+                    <p class="user-name">Быстров Борис Викторович</p>
+                    <p class="user-email">bystrov@gmail.com</p>
+                </div>
 
-        <div class="user-block line">
-            <img src="images/user.jpg" alt="">
-            <p class="user-name">Быстров Борис Викторович</p>
-            <p class="user-email">bystrov@gmail.com</p>
+                <nav class="social-block line">
+                    <a href="#" class="social-icon icon-git" title="github">Github</a>
+                    <a href="#" class="social-icon icon-skype" title="skype">Skype</a>
+                    <a href="#" class="social-icon icon-vk" title="vk">VK</a>
+                </nav>
+            </div>
         </div>
-
-        <nav class="social-block line">
-            <a href="#" class="social-icon icon-git" title="github">Github</a>
-            <a href="#" class="social-icon icon-skype" title="skype">Skype</a>
-            <a href="#" class="social-icon icon-vk" title="vk">VK</a>
-        </nav>
 
     </header>
     <!-- End header -->
     <!-- Main -->
     <main class="main line">
         <section class="about line ">
-            <h2 class="section-title line">О будущем ученике</h2>
-            <p class="section-subtitle line">Ребятам из Loftschool будет полезно узнать немного обо мне</p>
-            <article class="about-me line">
-                <h3 class="about-title line">
-                    Немного обо мне
-                </h3>
-                <p class="about-info line">
-                    Я живу в Санкт-Петербурге (Россия). Мне 26 лет. Высшее образование - закончил НИУ ИТМО. Опыт в
-                    разработке 1 год. Уже
-                    окончил курсы в Академии Программирования, где не плохо научился верстать. Пока есть только один
-                    сайт, которым могу
-                    похвастаться:
-                    <a href="#" title="www.yandex.ru">www.yandex.ru</a>
-                </p>
-            </article>
-            <article class="about-me line">
-                <h3 class="about-title line ">
-                    Мой опыт в разработке
-                </h3>
-                <p class="about-info line">
-                    В этом блоке я расскажу о себе, что я уже умею. Здесь я укажу другие курсы, которые до этого я уже
-                    проходил. Могу
-                    перечислить технологии, которыми уже умею пользоваться. К примеру: html5, css3, sass, jade, git и
-                    пр.
-                </p>
-            </article>
+            <div class="container">
+                <h2 class="section-title line">О будущем ученике</h2>
+                <p class="section-subtitle line">Ребятам из Loftschool будет полезно узнать немного обо мне</p>
+                <!-- Flex обертка -->
+                <div class="section-inner">
+                    <article class="about-me line">
+                        <h3 class="about-title line">
+                            Немного обо мне
+                        </h3>
+                        <p class="about-info line">
+                            Я живу в Санкт-Петербурге (Россия). Мне 26 лет. Высшее образование - закончил НИУ ИТМО.
+                            Опыт в
+                            разработке 1 год. Уже
+                            окончил курсы в Академии Программирования, где не плохо научился верстать. Пока есть только
+                            один
+                            сайт, которым могу
+                            похвастаться:
+                            <a href="#" title="www.yandex.ru">www.yandex.ru</a>
+                        </p>
+                    </article>
+                    <article class="about-me line">
+                        <h3 class="about-title line ">
+                            Мой опыт в разработке
+                        </h3>
+                        <p class="about-info line">
+                            В этом блоке я расскажу о себе, что я уже умею. Здесь я укажу другие курсы, которые до
+                            этого я
+                            уже
+                            проходил. Могу
+                            перечислить технологии, которыми уже умею пользоваться. К примеру: html5, css3, sass, jade,
+                            git
+                            и
+                            пр.
+                        </p>
+                    </article>
+                </div>
+
+
+            </div>
+
         </section>
 
         <section class="courses line">
-            <h2 class="section-title line">Курсы на loftblog</h2>
-            <p class="section-subtitle line">которые мне помогут в выполнении этого задания</p>
-            <ul class="courses-list line">
-                <!-- JS course -->
-                <li class="course-item item-js line">
-                    <h3 class="course-name">Основы JavaScript</h3>
-                    <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования - JavaScript.
-                        Изучая этот курс вы
-                        познаете этот прекрасный язык от самых основ.
-                    </p>
-                    <p class="course-duration">24 урока (6 часов 46 минут)</p>
-                    <div class="course-footer">
-                        <div class="course-checkbox">
-                            <input type="checkbox">
+            <div class="container">
+                <h2 class="section-title line">Курсы на loftblog</h2>
+                <p class="section-subtitle line">которые мне помогут в выполнении этого задания</p>
+                <ul class="courses-list line">
+                    <!-- JS course -->
+                    <li class="course-item item-js line">
+                        <h3 class="course-name">Основы JavaScript</h3>
+                        <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования -
+                            JavaScript.
+                            Изучая этот курс вы
+                            познаете этот прекрасный язык от самых основ.
+                        </p>
+                        <p class="course-duration">24 урока (6 часов 46 минут)</p>
+                        <div class="course-footer">
+                            <div class="course-checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <span>Посмотрел</span>
                         </div>
-                        <span>Посмотрел</span>
-                    </div>
-                </li>
-                <!-- JQ -->
-                <li class="course-item item-jq line">
-                    <h3 class="course-name">Основы JQUERY</h3>
-                    <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования - JavaScript.
-                        Изучая этот курс вы
-                        познаете этот прекрасный язык от самых основ.
-                    </p>
-                    <p class="course-duration">24 урока (6 часов 46 минут)</p>
-                    <div class="course-footer">
-                        <div class="course-checkbox">
-                            <input type="checkbox">
+                    </li>
+                    <!-- JQ -->
+                    <li class="course-item item-jq line">
+                        <h3 class="course-name">Основы JQUERY</h3>
+                        <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования -
+                            JavaScript.
+                            Изучая этот курс вы
+                            познаете этот прекрасный язык от самых основ.
+                        </p>
+                        <p class="course-duration">24 урока (6 часов 46 минут)</p>
+                        <div class="course-footer">
+                            <div class="course-checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <span>Посмотрел</span>
                         </div>
-                        <span>Посмотрел</span>
-                    </div>
-                </li>
+                    </li>
 
-                <li class="course-item item-basic line">
-                    <h3 class="course-name">Базовые элементы страницы</h3>
-                    <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования - JavaScript.
-                        Изучая этот курс вы
-                        познаете этот прекрасный язык от самых основ.
-                    </p>
-                    <p class="course-duration">24 урока (6 часов 46 минут)</p>
-                    <div class="course-footer">
-                        <div class="course-checkbox">
-                            <input type="checkbox">
+                    <li class="course-item item-basic line">
+                        <h3 class="course-name">Базовые элементы страницы</h3>
+                        <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования -
+                            JavaScript.
+                            Изучая этот курс вы
+                            познаете этот прекрасный язык от самых основ.
+                        </p>
+                        <p class="course-duration">24 урока (6 часов 46 минут)</p>
+                        <div class="course-footer">
+                            <div class="course-checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <span>Посмотрел</span>
                         </div>
-                        <span>Посмотрел</span>
-                    </div>
-                </li>
+                    </li>
 
-                <li class="course-item item-adaptive line">
-                    <h3 class="course-name">Создание адаптивных сайтов</h3>
-                    <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования - JavaScript.
-                        Изучая этот курс вы
-                        познаете этот прекрасный язык от самых основ.
-                    </p>
-                    <p class="course-duration">24 урока (6 часов 46 минут)</p>
-                    <div class="course-footer">
-                        <div class="course-checkbox">
-                            <input type="checkbox">
+                    <li class="course-item item-adaptive line">
+                        <h3 class="course-name">Создание адаптивных сайтов</h3>
+                        <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования -
+                            JavaScript.
+                            Изучая этот курс вы
+                            познаете этот прекрасный язык от самых основ.
+                        </p>
+                        <p class="course-duration">24 урока (6 часов 46 минут)</p>
+                        <div class="course-footer">
+                            <div class="course-checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <span>Посмотрел</span>
                         </div>
-                        <span>Посмотрел</span>
-                    </div>
-                </li>
+                    </li>
 
-                <li class="course-item item-buttons line">
-                    <h3 class="course-name">Верстка адаптивной css галереи</h3>
-                    <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования - JavaScript.
-                        Изучая этот курс вы
-                        познаете этот прекрасный язык от самых основ.
-                    </p>
-                    <p class="course-duration">24 урока (6 часов 46 минут)</p>
-                    <div class="course-footer">
-                        <div class="course-checkbox">
-                            <input type="checkbox">
+                    <li class="course-item item-buttons line">
+                        <h3 class="course-name">Верстка адаптивной css галереи</h3>
+                        <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования -
+                            JavaScript.
+                            Изучая этот курс вы
+                            познаете этот прекрасный язык от самых основ.
+                        </p>
+                        <p class="course-duration">24 урока (6 часов 46 минут)</p>
+                        <div class="course-footer">
+                            <div class="course-checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <span>Посмотрел</span>
                         </div>
-                        <span>Посмотрел</span>
-                    </div>
-                </li>
+                    </li>
 
-                <li class="course-item item-gallery line">
-                    <h3 class="course-name">Верстка адаптивной css галереи</h3>
-                    <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования - JavaScript.
-                        Изучая этот курс вы
-                        познаете этот прекрасный язык от самых основ.
-                    </p>
-                    <p class="course-duration">24 урока (6 часов 46 минут)</p>
-                    <div class="course-footer">
-                        <div class="course-checkbox">
-                            <input type="checkbox">
+                    <li class="course-item item-gallery line">
+                        <h3 class="course-name">Верстка адаптивной css галереи</h3>
+                        <p class="couser-descr">Видеокурс о одном из самых популярных языков программирования -
+                            JavaScript.
+                            Изучая этот курс вы
+                            познаете этот прекрасный язык от самых основ.
+                        </p>
+                        <p class="course-duration">24 урока (6 часов 46 минут)</p>
+                        <div class="course-footer">
+                            <div class="course-checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <span>Посмотрел</span>
                         </div>
-                        <span>Посмотрел</span>
-                    </div>
-                </li>
+                    </li>
 
-            </ul>
+                </ul>
+            </div>
+
         </section>
 
     </main>
     <!-- End Main -->
     <!-- Footer -->
     <footer class="footer line ">
-        <div class="copyright line">А это футер, с текстом внутри. Он должен быть прибит к низу окн</div>
+        <div class="container">
+            <div class="copyright line">А это футер, с текстом внутри. Он должен быть прибит к низу окн</div>
+        </div>
     </footer>
     <!-- End Footer -->
 </body>
